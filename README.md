@@ -32,8 +32,6 @@ The goal is to **understand DDPM at a mathematical and implementation level**, n
 
 Noise is gradually added to an image over time steps:
 
-![equation](https://latex.codecogs.com/png.image?\dpi{120}x_t%20=%20\sqrt{\hat{\alpha}_t}\cdot x_0%20+%20\sqrt{1-\hat{\alpha}_t}\cdot\epsilon)
-
 * Linear beta schedule
 * Precomputed cumulative product of alphas
 * Efficient tensor indexing for batch timesteps
@@ -43,8 +41,6 @@ Noise is gradually added to an image over time steps:
 ### 2. Reverse Process (Model Learning)
 
 The model learns to predict noise:
-
-![epsilon_theta](https://latex.codecogs.com/png.image?\dpi{120}\epsilon_{\theta}(x_t,%20t))
 
 Training objective:
 

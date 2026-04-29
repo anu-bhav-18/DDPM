@@ -95,7 +95,7 @@ This project was developed and executed in a **Kaggle Notebook**, leveraging:
 
 👉 All training, debugging, and visualization were performed within the Kaggle environment.
 
-* open:- https://www.kaggle.com/code/anubhvkumar47/ddpm-implementation/edit
+* open:- https://www.kaggle.com/code/anubhvkumar47/ddpm-implementation
 
 
 ---
